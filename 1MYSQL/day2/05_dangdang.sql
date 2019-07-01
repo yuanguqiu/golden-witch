@@ -1,0 +1,11 @@
+DROP DATABASE IF EXISTS dang;
+CREATE DATABASE dang;
+USE dang;
+CREATE TABLE book(
+  bid INT,
+  title VARCHAR(24),
+  price INT
+);
+INSERT INTO book VALUES('23','LIFE IS STRANGE','40');
+INSERT INTO book VALUES('47','ARE YOU OK','233');
+SELECT * FROM book;
